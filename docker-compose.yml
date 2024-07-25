@@ -1,4 +1,8 @@
-version: "3"
+
+#도커에서 Debian 가상환경 구축한다음 SSH서버로 VSC로 접근가능하도록 호스팅하고 
+#FRIGATE YML설정으로 COMPOSE세팅해야함
+
+version: "3.9"
 services:
   devcontainer:
     container_name: frigate-devcontainer
